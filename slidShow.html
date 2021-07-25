@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://www.toei-anim.co.jp/tv/dejimon/chara/charactar/koromon.jpg" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title">
+      <font color="orange" size="12" face= "ヒラギノ角ゴ ProN">
+      アグモン　進化ツリー
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()">
+          <i class="fa-solid fa-play"></i> <</button>
+<img src="https://www.toei-anim.co.jp/tv/dejimon/chara/charactar/koromon.jpg">
+<button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+
+      <button onclick="play()">進化</button>
+
+      <button onclick="stop()">退化</button>
+      <button onclick="reset()">幼年期</button>
+    </div>
+    <script src="slidShow.js"></script>
+  </body>
+</html>
